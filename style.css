@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(53, 192, 238); /* set the background to light blue */
+    text-align: center; /* center everything */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* simple font */
+}
+
+h1 {
+    color: navy; /* header color */
+    font-size: 40px; /* big title */
+}
+
+#quizArea {
+    margin: 20px; /* some space around */
+    font-size: 50px; /* bigger text for questions */
+}
+
+button {
+    padding: 10px 20px; /* make buttons bigger */
+    margin: 5px; /* space between buttons */
+    font-size: 16px; /* button text size */
+    cursor: pointer; /* pointer when hovering */
+}
+
+#resetButton {
+    border-radius: 50%; /* round reset button */
+    background-color: red; /* red button */
+    color: white; /* white text */
+    width: 100px; /* fixed width */
+    height: 100px; /* fixed height */
+}
+
+#resultMessage {
+    font-size: 30px; /* message size */
+    color: gold; /* for good answers */
+}
+
+#dollarSign {
+    font-size: 100px; /* huge dollar sign */
+    color: gold; /* gold color for winning */
+    animation: spin 2s infinite; /* spin effect */
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); } /* start position */
+    to { transform: rotate(360deg); } /* end position */
+}
